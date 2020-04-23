@@ -54,7 +54,7 @@ else
 	exit 1
 fi
 
-if [ $activity == meet ]; then
+if [ meet == "$activity" ]; then
 	activity=${activityMeetID}
 else
 	activity=${activityWorkID}

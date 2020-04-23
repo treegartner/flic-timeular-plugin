@@ -23,7 +23,7 @@
 		},
 		{
 			"actionName": "Stop Activity",
-			"fileName": "timeularTracking.sh stop work"
+			"fileName": "timeularTracking.sh stop"
 		}
 	]
 }
