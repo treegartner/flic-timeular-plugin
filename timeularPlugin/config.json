@@ -7,23 +7,23 @@
 	[
 		{
 			"actionName": "Start Meeting",
-			"fileName": "timeularTracking.sh start meet"
+			"fileName": "startMeeting.sh"
 		},
 		{
 			"actionName": "Toggle Meeting",
-			"fileName": "timeularTracking.sh toggle meet"
+			"fileName": "toggleMeeting.sh"
 		},
 		{
 			"actionName": "Start Work",
-			"fileName": "timeularTracking.sh start work"
+			"fileName": "startWork.sh"
 		},
 		{
 			"actionName": "Toggle Work",
-			"fileName": "timeularTracking.sh toggle work"
+			"fileName": "toggleWork.sh"
 		},
 		{
 			"actionName": "Stop Activity",
-			"fileName": "timeularTracking.sh stop"
+			"fileName": "stop.sh"
 		}
 	]
 }
