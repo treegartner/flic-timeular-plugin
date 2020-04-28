@@ -1,0 +1,3 @@
+TimeularKey = "YOUR API KEY HERE"
+TimeularSecret = "YOUR API SECRET HERE"
+TimeularBaseURL = "https://api.timeular.com/api/v2"
