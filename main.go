@@ -90,11 +90,9 @@ func main() {
 
 // Create shell script files out of activities
 func createShellScripts(activities *timeular.Activities, actions []string) error {
-	tmplStr := `
-	#!/bin/bash
-	WORKINGDIR=$( dirname "${BASH_SOURCE[0]}" )
-	test=$("$WORKINGDIR/flic-timeular-plugin" -config "$WORKINGDIR/config.toml" {{.Param1}} {{.Action}} {{.Param2}} {{.Name}})
-	`
+	tmplStr := `#!/bin/bash
+WORKINGDIR=$( dirname "${BASH_SOURCE[0]}" )
+test=$("$WORKINGDIR/flic-timeular-plugin" -config "$WORKINGDIR/config.toml" {{.Param1}} {{.Action}} {{.Param2}} {{.Name}})`
 	scriptActs := []scriptSetup{
 		scriptSetup{
 			Param1: "-action",

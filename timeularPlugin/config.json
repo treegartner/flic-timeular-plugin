@@ -5,7 +5,7 @@
 	"protocolVersion": 1,
 	"actions": [
 	 {
-		"actionName": "Execute setup.sh first please (from the terminal)",
+		"actionName": "Setup Activities (then reload plugins)",
 		"fileName": "setup.sh"
 	 }
 	]
