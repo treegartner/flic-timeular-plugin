@@ -3,27 +3,10 @@
 	"pluginDescription": "Track time with timeular",
 	"pluginReadMore": "This action lets track activities from timeular with the push of a button.",
 	"protocolVersion": 1,
-	"actions":
-	[
-		{
-			"actionName": "Start Meeting",
-			"fileName": "startMeeting.sh"
-		},
-		{
-			"actionName": "Toggle Meeting",
-			"fileName": "toggleMeeting.sh"
-		},
-		{
-			"actionName": "Start Work",
-			"fileName": "startWork.sh"
-		},
-		{
-			"actionName": "Toggle Work",
-			"fileName": "toggleWork.sh"
-		},
-		{
-			"actionName": "Stop Activity",
-			"fileName": "stop.sh"
-		}
+	"actions": [
+	 {
+		"actionName": "Execute setup.sh first please (from the terminal)",
+		"fileName": "setup.sh"
+	 }
 	]
-}
+ }
